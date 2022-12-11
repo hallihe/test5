@@ -1,0 +1,33 @@
+
+
+Haarat
+Komennon git status tulosteen yläreunassa näkyy: On branch main. Haarat, eli englanniksi branchit, mahdollistavat joidenkin committien eriyttäimisen toisistaan. Näin ollen on mahdollista kehittää uuden haaran sisältöä ilman, että menetetään toimiva versio ohjelmasta. Tavanomaisesti jokaisella projektilla on päähaara, joka on oletuksena nimeltään main, ja jossa pidetään senhetkistä toimivaa ja käytössä olevaa versiota.
+
+Oletushaaran nimi on muuttunut hiljattain
+Perinteisesti git on käyttänyt oletuspäähaarasta nimitystä *master*, mutta vuosien 2020 ja 2021 aikana moni palvelu, ja lopulta git itsessään, on luopunut master-sanan käytösä. Tämä päätös on osa suurempaa liikettä luopua master- ja slave-sanojen käytöstä avoimen lähdekoodin ohjelmistoissa.
+
+Usein haaroja käytetään niin, että päähaarasta erotetaan uuden toiminnallisuuden testaamiseksi toinen haara, jossa koodataan lisäominaisuuksia. Haarat eivät vaikuta toistensa tiloihin, eli uudella koodilla voidaan leikkiä huolimatta päähaarasta. Kun ollaan todettu uusi koodi toimivaksi, voidaan se lisätä päähaaraan, ja poistaa uusi haara. Tässä osassa ei käsitellä haaroja sen enempää: riittää ymmärtää, että käytämme nyt vain main-, eli päähaaraa.
+
+Tehtävä 3: Committien harjoittelua
+10%
+Luo kansio komentorivillä ja tee siitä Git-projekti.
+Luo projektikansioosi tiedosto nimeltä tarina.txt. Lisää sinne jokin pitkä pätkä tekstiä.
+Lisää projektiin tiedosto ostoslista.txt, jonne kirjoitat, mitä tarvitset kaupasta, tai muuten vaan paljon rivejä.
+Lisää sen jälkeen vielä alikansio kouluprojektit, ja lisää sinne ainakin yksi tiedosto lapio.txt. Tulet tarvitsemaan näitä tiedostoja tulevissa tehtävissä.
+Kun olet tehnyt kaikki edellä mainitut muutokset, tee yhteensä kolme committia: yksi, jossa lisäät tarinan, toinen, jossa lisäät ostoslistan, ja kolmas, jossa lisäät kouluprojektikansion sisällön. Kirjoita commiteille kuvaavat otsikot.
+Tarkista komennolla git log, että olet luonut kolme committia.
+Muuta ostoslistalta jokin ostos, ja tee vielä yksi commit. Käytä muutoksen lisäämisessä komentoa git add -p.
+Tarkista, että kaikki commitit näkyvät git log-komennolla.
+Oletuseditorin väärä konfiguraatio
+Jos committia luodessa tulostuu virheviesti error: cannot run : No such file or directory error: unable to start editor, varmista, että olet konfiguroinut oletuseditorin oikein (tämä tehtiin tehtävässä 2).
+
+Tehtävä 4: Muutosten poistaminen
+10%
+Selvitä, miten saat poistettua muutoksen tilasta, 
+jossa olet lisäämässä sitä committiin (näkyy vihreänä tulostuksessa), 
+ja siirrettyä muutoksen otsikon Changes not staged for commit alle? Vinkki: git status auttaa.
+Lisää uusia tuotteita ostoslistaan, ja aseta muutokset lisättäväksi seuraavaan committiin (Changes to be commited). 
+Älä kuitenkaan paketoi committia.
+Poista sen jälkeen muutokset seuraavasta commitista.
+Poista sen jälkeen muutokset Gitin avulla niin, että kun avaat ostoslistan, uusimmat tuotteet puuttuvat.
+
