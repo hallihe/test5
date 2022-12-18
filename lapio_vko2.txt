@@ -1,2 +1,3 @@
 tämä on lapion toinen osa
-uusi rivi tekstiä
+uusi rivi tekstiä on lisätty githubissa
+
