@@ -1,5 +1,4 @@
-
-
+tämä edit on 10.55 githubissa
 Haarat
 Komennon git status tulosteen yläreunassa näkyy: On branch main. Haarat, eli englanniksi branchit, mahdollistavat joidenkin committien eriyttäimisen toisistaan. Näin ollen on mahdollista kehittää uuden haaran sisältöä ilman, että menetetään toimiva versio ohjelmasta. Tavanomaisesti jokaisella projektilla on päähaara, joka on oletuksena nimeltään main, ja jossa pidetään senhetkistä toimivaa ja käytössä olevaa versiota.
 
