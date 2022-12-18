@@ -31,3 +31,7 @@ Lisää uusia tuotteita ostoslistaan, ja aseta muutokset lisättäväksi seuraav
 Poista sen jälkeen muutokset seuraavasta commitista.
 Poista sen jälkeen muutokset Gitin avulla niin, että kun avaat ostoslistan, uusimmat tuotteet puuttuvat.
 
+su 18.12.2022 10.38.07 +0200 muutos
+
+
+
